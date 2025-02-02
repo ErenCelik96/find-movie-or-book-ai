@@ -13,7 +13,7 @@ Bu proje, yapay zeka destekli bir film ve kitap arama motoru sunar. Google'ın G
 - 🔄 React Query ile etkin veri yönetimi
 
 ## 📁 Proje Yapısı
-
+```bash
 src/
 ├── app/
 │ ├── layout.tsx
@@ -40,6 +40,7 @@ src/
 └── animations/
 ├── movie-loading.json
 └── book-loading.json
+```
 
 ## 🛠️ Teknik Detaylar
 
@@ -63,7 +64,7 @@ src/
 "typescript": "5.x",
 "@tanstack/react-query": "^5.x",
 "lottie-react": "^2.x",
-"tailwindcss": "^3.x"
+"@google/generative-ai": "^0.21.0",
 }
 
 ## 🚦 Kurulum
